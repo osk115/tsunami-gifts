@@ -1,0 +1,12 @@
+name: TsunamiGifts
+description: Let your players create gifts from items
+version: 1.0.0
+main: ru.osk.tsunamigifts.TsunamiGifts
+api-version: 1.18
+author: osk
+commands:
+  tsunamigifts:
+    aliases:
+      - tgifts
+      - gifts
+      - gift

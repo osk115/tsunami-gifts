@@ -1,0 +1,59 @@
+##############################################################
+##           TsunamiGifts v1.0.0 - 1.13 - 1.18.1            ##
+##         Let your players create gifts from items         ##
+##############################################################
+
+#
+# Commands & Permissions:
+#
+#  Aliases: /tgifts, /gifts, /gift
+#
+#  /tsunamigifts create - Create gift from item in hand - tsunamigifts.use
+#  /tsunamigifts anonymous - Create anonymous gift from item in hand - tsunamigifts.use.anonymous
+#
+
+gifts:
+
+  # Default gift (/tsunamigifts create)
+  default:
+
+    headValues:
+      - "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcyNmQ5ZDA2MzJlNDBiZGE1YmNmNjU4MzliYTJjYzk4YTg3YmQ2MTljNTNhZGYwMDMxMGQ2ZmM3MWYwNDJiNSJ9fX0="
+      - "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM3NTA2MWQwOGYxZDdiMzE3Njc1YWE3ZmE4ODAwZDZmMjA2NmUwMThkOWY5MWVjZGRmOWNhZjMwNGU5N2U5MiJ9fX0="
+
+    name: "&6Gift from <GRADIENT:F2994A>{player_name}</GRADIENT:F2C94C>"
+    lore:
+      - ""
+      - " &7Wonder what's inside?"
+      - " &7Gift from <GRADIENT:F2994A>{player_name}</GRADIENT:F2C94C>"
+      - ""
+      - " <GRADIENT:11998e>» Click RMB to</GRADIENT:38ef7d>"
+      - " <GRADIENT:11998e>   open the gift</GRADIENT:38ef7d>"
+      - ""
+
+  # Anonymous gift (/tsunamigifts anonymous)
+  anonymous:
+
+    headValues:
+      - "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwYzdhZjU5MWJkMTMzNzk0NGFiZmFjNTJiOWJjZjg4MzUyOGRiNzJhYWNiNmRiYzRlZGQ1NmE4MDM2NjdmNCJ9fX0="
+      - "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2YTNkZTJiMWI5NWY0MmZmZDQ0ODAxOGQxY2MxMWRjNzYzZjlkNWM3MjJjYzFiNmNjM2ZjZmQ0ZjA5MDg5ZSJ9fX0="
+
+    name: "<GRADIENT:bdc3c7>Anonymous Gift</GRADIENT:2c3e50>"
+    lore:
+      - ""
+      - " &7Wonder what's inside? "
+      - " &7Gift from <GRADIENT:bdc3c7>Anonymous</GRADIENT:2c3e50>"
+      - ""
+      - " <GRADIENT:11998e>» Click RMB to</GRADIENT:38ef7d>"
+      - " <GRADIENT:11998e>   open the gift</GRADIENT:38ef7d>"
+      - ""
+
+messages:
+
+  console: "<GRADIENT:F2994A>WARN:</GRADIENT:F2C94C> &fYou need to be a player to use this command"
+  noPerms: "<GRADIENT:F2994A>WARN:</GRADIENT:F2C94C> &fNot enough permissions to use this command &7(itemgifts.use)"
+  noItem: "<GRADIENT:F2994A>WARN:</GRADIENT:F2C94C> &fYou need an item in the main hand to create a gift"
+  giftToGift: "<GRADIENT:F2994A>WARN:</GRADIENT:F2C94C> &fYou can't create a gift from another gift"
+
+  giftCreated: "<GRADIENT:76b852>INFO:</GRADIENT:8DC26F> &fGift has been created"
+  help: "<GRADIENT:76b852>INFO:</GRADIENT:8DC26F> &f/igifts [&agift&f|&6anon&f]"
